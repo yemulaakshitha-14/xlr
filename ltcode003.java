@@ -1,4 +1,4 @@
-class Solution {
+class ltcode003 {
     public int myAtoi(String s) {
         // Step 1: Trim leading whitespace
         s = s.trim();
@@ -40,13 +40,13 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        ltcode003 ltcode003 = new ltcode003();
 
         // Test cases
-        System.out.println(solution.myAtoi("42"));          // Output: 42
-        System.out.println(solution.myAtoi("   -042"));     // Output: -42
-        System.out.println(solution.myAtoi("1337c0d3"));    // Output: 1337
-        System.out.println(solution.myAtoi("0-1"));         // Output: 0
-        System.out.println(solution.myAtoi("words and 987"));// Output: 0
+        System.out.println(ltcode003.myAtoi("42"));          // Output: 42
+        System.out.println(ltcode003.myAtoi("   -042"));     // Output: -42
+        System.out.println(ltcode003.myAtoi("1337c0d3"));    // Output: 1337
+        System.out.println(ltcode003.myAtoi("0-1"));         // Output: 0
+        System.out.println(ltcode003.myAtoi("words and 987"));// Output: 0
     }
 }
